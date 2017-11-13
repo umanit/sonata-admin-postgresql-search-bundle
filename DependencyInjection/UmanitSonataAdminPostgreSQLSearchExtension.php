@@ -20,7 +20,6 @@ class UmanitSonataAdminPostgreSQLSearchExtension extends Extension implements Pr
      */
     public function load(array $configs, ContainerBuilder $container)
     {
-        parent::load($configs, $container);
     }
 
     /**
