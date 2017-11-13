@@ -1,0 +1,26 @@
+{
+    "name": "umanit/sonata-admin-postgresql-search-bundle",
+    "description": "Better search behaviour with Sonata admin and PostgreSQL",
+    "type": "symfony-bundle",
+    "keywords": ["symfony", "doctrine", "sonataadmin", "sonata", "postgresql"],
+    "homepage": "https://github.com/umanit/sonata-admin-postgresql-search-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "UmanIT",
+            "email": "contact@umanit.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "symfony/symfony": ">=2.8",
+        "doctrine/doctrine-bundle": "~1.7",
+        "sonata-project/admin-bundle": "~3.9",
+        "sonata-project/doctrine-orm-admin-bundle": "~3.1"
+    },
+    "minimum-stability": "stable",
+    "target-dir": "Umanit/SonataAdminPostgreSQLSearchBundle",
+    "autoload": {
+        "psr-0": { "Umanit\\SonataAdminPostgreSQLSearchBundle": "" }
+    }
+}
