@@ -5,7 +5,7 @@ It makes all search **case insensitive** and **unaccented**.
 
 ## Install
 
-Register the bundle to your app/AppKernel.php`
+Register the bundle to your `app/AppKernel.php`
 
 ```php
     // ...
